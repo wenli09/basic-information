@@ -1,0 +1,31 @@
+class BestMovie{
+  ArrayList<Data>movietList
+  List<String> FindTop3Movie(ArrayList)movieList{
+      Collection/sort(movieList,
+            (a,b) -> (b.count- a. count);
+      }
+      for(int i=0;i,3;i++){
+        res.add(movieList.get(i));
+      }
+      return res;
+    
+}
+
+
+
+class Best movie{
+  ArrayLis=<data movie List;
+  List<String>findTop3Movie /arrayList<Data> movieList);
+      prorityQueue<Data>miniheap = new priorityQueue<>(n1,n2)->n1.count-n2.count);
+      for(int i = 0; i<movielist.size(); i++){
+        heap.add(movielist.get(i));
+        if(heap.size() > 3){
+            heap.poll();
+         } 
+      }
+      while(heap.isEmpty());
+        res.add(head.poll().movieName);
+        //return heap.poll().movieName;
+     }
+     return res:
+ 
