@@ -1,23 +1,23 @@
-class BestMovie{
-  ArrayList<Data>movietList
-  List<String> FindTop3Movie(ArrayList)movieList{
-      Collection/sort(movieList,
-            (a,b) -> (b.count- a. count);
-      }
-      for(int i=0;i,3;i++){
-        res.add(movieList.get(i));
-      }
-      return res;
-    
+ticket; <UserID, MovieName, Price>
+List<ticket>;
+<A,1000>
+<B, 2000>
+<C, 1500>......
+
+
+class Data{
+  String movieName;
+  int count;
 }
 
 
 
 class Best movie{
-  ArrayLis=<data movie List;
-  List<String>findTop3Movie /arrayList<Data> movieList);
-      prorityQueue<Data>miniheap = new priorityQueue<>(n1,n2)->n1.count-n2.count);
-      for(int i = 0; i<movielist.size(); i++){
+  ArrayLis<data> movie List;
+  ArrayList<String>FindTop3Movie (arrayList<Data> movieList){
+       ArrayList<String>res = new ArrayList<>();
+       prorityQueue<Data>minheap = new priorityQueue<>(n1,n2)->n1.count-n2.count);
+        for(int i = 0; i<movielist.size(); i++){
         heap.add(movielist.get(i));
         if(heap.size() > 3){
             heap.poll();
